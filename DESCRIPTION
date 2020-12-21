@@ -1,0 +1,35 @@
+Package: scrapR
+Title: A Scraping and Aggregating Interface to the ESPN API
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Saiem",
+           family = "Gilani",
+           role = c("cre", "aut"),
+           email = "saiem.gilani@gmail.com")
+Description: An R package for working with College Data. It is
+    an R API wrapper around <https://espn.com/> made available by the
+    scrapR team. It provides users the capability to access a plethora of
+    endpoints, and supplement that data with additional information
+    (Expected Points Added/Win Probability added).
+License: MIT + file LICENSE
+URL: http://www.github.com/saiemgilani/scrapR
+BugReports: http://www.github.com/saiemgilani/scrapR/issues
+Imports: 
+    assertthat,
+    attempt,
+    curl,
+    dplyr,
+    httr,
+    janitor,
+    jsonlite,
+    mgcv (>= 1.8-33),
+    nnet,
+    purrr,
+    rlang,
+    stringi,
+    stringr,
+    tibble,
+    tidyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
